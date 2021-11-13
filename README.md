@@ -1,7 +1,7 @@
 # pl-cpx-REE-T
-R function to calculate plagioclase-clinopyroxene REE exchange temperatures.
+R function to calculate plagioclase-clinopyroxene REE exchange temperatures in a flexible way.
 
-![](https://dl.photoprism.org/img/ui/desktop-1000px.jpg)
+![](https://raw.githubusercontent.com/thewoodsofcoding/pl-cpx-REE-T/main/img/inversion.jpg)
 
 The calculations are base on: Sun, C., & Liang, Y. (2017). A REE-in-plagioclase–clinopyroxene thermometer for crustal rocks. Contributions to Mineralogy and Petrology, 172(4), 24. [DOI](http://doi.org/10.1007/s00410-016-1326-9)
 

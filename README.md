@@ -10,7 +10,11 @@ The calculations are base on: Sun, C., & Liang, Y. (2017). A REE-in-plagioclaseâ
 1. Download and isntall [R-Studio](https://www.rstudio.com/products/rstudio/download/)
 2. Download this repository as zip file and extract it.
 3. Open example.R file in R-Studio and hit Source.
-4. Beyond the example, you can call the R function to calculate REE temperatures with `TREEplcpx()` after you have sourced it to your working environment via `source(paste0(USERPATH,"/TREEplcpx.R"))`. Replace the USERPATH with the path to the TREEplcpx.R file of the downloaded zip folder.
+4. You have to make sure that all required packages are installed, if this is not the case type the following into the R-Studio console:
+```
+install.packages("MASS","robustbase","ggplot2","ggrepel","EnvStats","reshape2","ggpubr")
+```
+5. Beyond the example.R, you can call the R function to calculate REE temperatures with `TREEplcpx()` after you have sourced it to your working environment via `source(paste0(USERPATH,"/TREEplcpx.R"))`. Replace the USERPATH with the path to the TREEplcpx.R file of the downloaded zip folder.
 
 # options
 | option          | values           |default    | description                                                                  

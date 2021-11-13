@@ -1,5 +1,6 @@
 # pl-cpx-REE-T
 R function to calculate plagioclase-clinopyroxene REE exchange temperatures in a flexible way.
+For details see: Müller, S., Garbe-Schönberg, D., Koepke, J., Hoernle, K. (202x). A reference section through fast-spread lower oceanic crust, Wadi Gideah, Samail Oophiolite (Sultanate of Oman): Trace Element Systematics and Crystallization Temperatures – implications for hybrid crustal accretion. Journal of Geophysical Research-Solid Earth, xxx(x), DOI
 
 ![](https://raw.githubusercontent.com/thewoodsofcoding/pl-cpx-REE-T/main/img/inversion.jpg)
 
@@ -9,7 +10,8 @@ The calculations are base on: Sun, C., & Liang, Y. (2017). A REE-in-plagioclase�
 1. Download and isntall [R-Studio](https://www.rstudio.com/products/rstudio/download/)
 2. Download this repository as zip file and extract it.
 3. Open example.R file in R-Studio and hit Source.
-4. You can call the function to calculate REE temperatures with TREEplcpx()
+4. Beyond the example, you can call the R function to calculate REE temperatures with `TREEplcpx()` after you have sourced it to your working environment via `source(paste0(USERPATH,"/TREEplcpx.R"))`. Replace the USERPATH with the path to the TREEplcpx.R file of the downloaded zip folder.
+
 # options
 | option          | values           |default    | description                                                                  
 |:----------------|:-----------------|:----------|:-----------------------------------------------------------------------------|

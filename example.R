@@ -31,10 +31,10 @@ userpath <- dirname(rstudioapi::getSourceEditorContext()$path)
 source(paste0(userpath,"/TREEplcpx.R"))
 
 # read the sample data
-cpx_major <- read.csv(paste0(userpath,"/cpx_m.csv"))
-cpx_trace <- read.csv(paste0(userpath,"/cpx_REEY.csv"))
-pl_major <- read.csv(paste0(userpath,"/pl_m.csv"))
-pl_trace <- read.csv(paste0(userpath,"/pl_REEY.csv"))
+cpx_major <- read.csv(paste0(userpath,"/data/cpx_m.csv"))
+cpx_trace <- read.csv(paste0(userpath,"/data/cpx_REEY.csv"))
+pl_major <- read.csv(paste0(userpath,"/data/pl_m.csv"))
+pl_trace <- read.csv(paste0(userpath,"/data/pl_REEY.csv"))
 
 # calculate temperatures
 

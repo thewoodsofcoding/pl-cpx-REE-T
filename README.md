@@ -21,16 +21,16 @@ install.packages("MASS","robustbase","ggplot2","ggrepel","EnvStats","reshape2","
 | option          | values           |default    | description                                                                  
 |:----------------|:-----------------|:----------|:-----------------------------------------------------------------------------|
 | sample          | character string | UNKNOWN   | sample name                                                                  
-| cpx_m           | data frame       |           | clinopyroxene major elements                                                 
-| cpx_REEY        | data frame       |           | clinopyroxene trace elements                                                 
-| pl_m            | data frame       |           | plagioclase major elements                                                   
-| pl_REEY         | data frame       |           | plagioclase trace elements                                                   
-| H2O             | 0 to 100         | 0.0       | H2O in g/100g                                                                
-| P               | > 0              | 2         | P in kBar                                                                    
-| norm_cpx        | TRUE, FALSE      | TRUE      | when calculating clinopyroxene composition normalize oxides to 100 g/100g?   
-| norm_pl         | TRUE, FALSE      | TRUE      | when calculating plagioclase composition normalize oxides to 100 g/100g?     
-| Dcalc           | paired, outer    | outer     | Dpl-cpx calculation? Calcualte pairwise or generate an outer matrix?         
-| REEpresent      | 2 to 15          | 8         | skip calculation if less than n REEs+Y are present in the input data.         
+| cpx_m           | data frame       |           | clinopyroxene major elements, see sample data for structure, check column names
+| cpx_REEY        | data frame       |           | clinopyroxene trace elements, see sample data for structure, check column names
+| pl_m            | data frame       |           | plagioclase major elements, see sample data for structure, check column names
+| pl_REEY         | data frame       |           | plagioclase trace elements, see sample data for structure, check column names
+| H2O             | 0 to 100         | 0.0       | H2O in g/100g
+| P               | > 0              | 2         | P in kBar
+| norm_cpx        | TRUE, FALSE      | TRUE      | when calculating clinopyroxene composition normalize oxides to 100 g/100g?
+| norm_pl         | TRUE, FALSE      | TRUE      | when calculating plagioclase composition normalize oxides to 100 g/100g?
+| Dcalc           | paired, outer    | outer     | Dpl-cpx calculation? Calcualte pairwise or generate an outer matrix?
+| REEpresent      | 2 to 15          | 8         | skip calculation if less than n REEs+Y are present in the input data.
 | regression      | simple, IWLS     | IWLS      | type of regression to perform regular (simple) or robust (IWLS) regression?
 | exclude         | REE              | NULL      | vector of REEs to exclude from temperature regression e.g. c("Eu","Y").
 | stripoutlier    | TRUE, FALSE      | FALSE     | strip data from temperature caluclation that classifie as outlier?

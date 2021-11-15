@@ -1,3 +1,4 @@
+[![DOI](https://zenodo.org/badge/427775377.svg)](https://zenodo.org/badge/latestdoi/427775377)
 # pl-cpx-REE-T
 R function to calculate plagioclase-clinopyroxene REE exchange temperatures in a flexible way.
 For details see: Müller, S., Garbe-Schönberg, D., Koepke, J., Hoernle, K. (202x). A reference section through fast-spread lower oceanic crust, Wadi Gideah, Samail ophiolite (Sultanate of Oman): Trace Element Systematics and Crystallization Temperatures – implications for hybrid crustal accretion. Journal of Geophysical Research-Solid Earth, xxx(x), DOI
